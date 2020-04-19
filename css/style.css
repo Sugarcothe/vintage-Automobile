@@ -1,0 +1,308 @@
+#home {
+    background: url('./imgg/vintage.jpg')no-repeat center center/cover;
+    height: 115vh;
+}
+
+
+/*utilities*/
+.l-head {
+    color: white;
+    height: 0;
+    font-family: 'Old Standard TT', serif;
+    padding-left: 2rem;
+    text-decoration: none;
+    position: sticky;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+}  
+
+
+.logo {
+    color: rgb(224, 159, 19);
+}
+
+.head {
+    font-size: 3rem;
+    color: rgb(224, 159, 19);
+    margin-top: 7rem;
+    padding-left: 1rem;
+    font-family: 'Merriweather', serif;
+    text-decoration: underline;   
+
+}
+
+.paragraph {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+    margin-left: 2rem;
+   
+}
+
+.btn {
+        display: inline-block;
+        background-color: rgb(245, 102, 102);
+        color: white;
+        padding: 0.5rem 3rem;
+        border-radius: 5px;
+        margin-left: 2rem;
+        text-decoration: none;
+}     
+
+.btn a {
+    text-decoration: none;
+    
+}
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    z-index: 1;
+    
+}
+
+.navbar .list li {
+    display: inline;
+    opacity: 0.8;
+    padding: 0.25rem;
+    border-radius: 10px;
+    top: 0;
+    margin-right: 5rem;
+    padding: 0.80rem;
+    
+}
+.navbar .list li:hover {
+    background: rgb(224, 159, 19);
+    padding: 1rem 2rem;
+}
+
+
+/* contact */
+
+#home-contact {
+    background: url('./imgg/960354-antique-car-wallpaper-1920x1080-retina.jpg')no-repeat center center/cover;
+    height: 100vh;
+   
+}
+#contact {
+    display: flex;
+    color: #333;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+#contact .contact {
+    background: rgb(209, 40, 40);
+    color: white;
+    opacity: 0.8;
+    padding: 2rem;
+}
+
+#contact .team {
+    background: rgb(33, 153, 33);
+    opacity: 0.8;
+    padding: 2rem;
+    color: white;
+    margin-right: 3rem;
+    
+}
+
+
+
+/* about */
+
+#about-home {
+    background: url('./imgg/296389.jpg')no-repeat center center/cover;
+    height: 110vh;
+    
+}
+.about h1 {
+    padding-top: 14rem;
+
+}
+
+.about p {
+    display: inline-block;
+    background: rgb(217, 238, 247);
+    opacity: 0.9;
+    margin-top: 6rem;
+    margin-right: 20px;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+    margin-left: 2rem;
+   
+}
+
+/* GARAGE */
+
+#garage-home {
+    
+    background: rgb(182, 177, 177);
+}
+
+.car-header {
+    color: rgb(211, 110, 15);
+    font-size: 2.25rem;
+}
+
+
+#garage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 1000px;
+    align-items: flex-start;
+}
+
+.car1 {
+    background: inherit;
+    border: #ccc solid 1px;
+    padding: 1rem;
+    margin: 0.5rem;
+    flex-basis: 200px;
+}
+
+.car-header2 {
+    color: white;
+    text-decoration: underline;
+}
+#garage2 {
+    display: flex;
+}
+
+.garage2-head {
+    color: khaki;
+
+}
+
+.garage2-head p {
+    font-size: 5rem;
+}
+
+/* footers */
+
+#footer .end-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 11rem;
+    font-size: 1.25rem;
+}
+
+#footer-contact .end-footer-contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 11rem;
+    font-size: 1.25rem;
+}
+#footer-about .end-footer-about {
+    justify-content: center;
+    padding: 0.30rem;
+    color: honeydew;
+    background: #333;
+}
+@media (max-width:450px) {
+    #home {
+        background: url('./imgg/vintage\ mobile.jpg')no-repeat center center/cover;
+        height: 110vh;
+    }
+    .l-head {
+        display: inline-block;
+        color: yellow;
+        height: 0;
+        font-family: 'Old Standard TT', serif;
+        padding-left: 0.25rem;
+        text-decoration: none;
+    
+    }
+    .head {
+        font-size: 1.75rem;
+        color: rgb(224, 159, 19);
+        margin-top: 4rem;
+        padding-left: 1rem;;
+        font-family: 'Merriweather', serif;
+        text-decoration: underline;   
+    
+    }
+
+    .navbar .list li:hover {
+        background: none;
+        padding: none;
+    }  
+
+    #home-contact {
+        background: url('./imgg/960354-antique-car-wallpaper-1920x1080-retina.jpg')no-repeat center center/cover;
+        height: 135vh;
+   
+    }
+
+    #contact {
+        display: table-row;
+        justify-content: space-between;
+        margin-top: 3rem;
+
+    }
+    #contact .contact {
+        background: rgb(209, 40, 40);
+        color: white;
+        opacity: 0.8;
+        padding: 2rem;
+        margin-top: 5rem;
+        width: 310px;
+        height: 210px;
+    }
+    .team {
+        background: rgb(33, 153, 33);
+        opacity: 0.8;
+        padding: 2rem;
+        color: white;
+        margin-right: 3rem;
+        margin-top: 4rem;
+        width: 310px;
+        
+    }
+    /* ABOUT */
+    
+    #about-home {
+        background: url('./imgg/296389.jpg')no-repeat center center/cover;
+        height: 123vh;
+    
+}
+    
+    .about h1 {
+        padding-top: 1rem;
+    }
+
+    .about p {
+        display: inline-block;
+        background: rgb(217, 238, 247);
+        opacity: 0.9;
+        margin-top: 2rem;
+        margin-right: 20px;
+        padding: 0.5rem 3rem;
+        border-radius: 5px;
+        margin-left: 2rem;
+       
+    }
+    #garage .car1 {
+        background: inherit;
+        border: #ccc solid 1px;
+        padding: 1rem;
+        margin: 0;
+        flex-basis: 200px;
+        margin-left: 5rem;
+    }
+} 
+    
